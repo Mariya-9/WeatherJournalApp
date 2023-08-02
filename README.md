@@ -1,19 +1,76 @@
 # Weather-Journal App Project
 
-## Overview
+# Weather Journey App
 
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI.
+[![My Skills](https://skillicons.dev/icons?i=express,nodejs,js,css,html&theme=light)](https://skillicons.dev)
 
-## Instructions
+## Brief Description
 
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+Weather Journey App is an app developed with node.js with Express.js.
+It's a dynamic webpage that allows the user to get the temperature of such a city depending on the zip code.
 
-## Extras
+Along with express.js I have used AJAJ as well.
 
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+## Files
+
+The App consists of :
+
+- Website (Directory)
+  - index.html
+  - styles.css
+  - app.js
+  - img (Directory)
+- server.js
+- package-lock.json
+- package.json
+
+## Installation [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+##### If you do not have to install node.js on your device. Visit this website.
+
+[Node. js](https://nodejs.org/).
+Install the dependencies and devDependencies and start the server.
+
+##### After Install node.js - Follow the below Instructions
+
+In cmd or VS code terminal do this Installation one by one.
+
+1.  First Of all, It's needs to install node.js Package.
+
+```
+npm I node.js
+```
+
+2. Express.js Installation
+
+```
+npm i express.js
+```
+
+3. Body parser Installation
+
+```
+npm install body-parser
+```
+
+3. Cors Instaillation
+
+```
+npm i cors
+```
+
+## To RUN the App
+
+In the Terminal type:
+
+```
+node server.js
+```
 
 ## IMPORTANT NOTE!
 
-Please use a zip of 5 digit like :
-99950
+### Please use a zip of 5 digit like :
+
+99950 -
 70123
+
